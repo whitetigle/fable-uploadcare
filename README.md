@@ -1,5 +1,7 @@
 # Fable UploadCare Widget
 
+Try it: click [here](https://whitetigle.github.io/fable-uploadcare/)
+
 ## Building and running the app
 
 > In the commands below, yarn is the tool of choice. If you want to use npm, just replace `yarn` by `npm` in the commands.
