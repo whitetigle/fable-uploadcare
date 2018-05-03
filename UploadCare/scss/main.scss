@@ -1,0 +1,21 @@
+ // ******************************************************* Bulma ****************************************************
+ $fa-font-path: "./../node_modules/font-awesome/fonts/";
+ @import './../node_modules/font-awesome/scss/font-awesome.scss';
+ 
+ @import './../node_modules/bulma/bulma.sass';
+// ******************************************************* LAYOUT ****************************************************
+
+
+
+// Needed otherwise iframes show a disabled scrollbar
+body {
+  overflow-y:auto;
+  overflow-x:auto;
+  font-family: Lato, 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+
+ #test { 
+  background-color: red
+  }
+}
