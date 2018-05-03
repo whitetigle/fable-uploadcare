@@ -13,7 +13,7 @@ var config = {
     { 
       app: [resolve(path.join("..", forceGet(packageJson, "fable.entry", errorMsg)))], 
       style: [resolve('../scss/main.scss')] },publicDir: resolve("../docs"),
-  buildDir: resolve("../build"),
+  buildDir: resolve("../docs"),
   nodeModulesDir: resolve("../node_modules"),
   indexHtmlTemplate: resolve("../src/index.html")
 }
