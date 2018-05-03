@@ -12,7 +12,9 @@ Try it: click [here](https://whitetigle.github.io/fable-uploadcare/)
 * In your browser, open: http://localhost:8084/
 
 ## How to use in your project
-Just Grab the `src/UploadCarecomponent.fs` file and add it to your project.
+* Add dependency: `yarn add uploadcare-widget`
+* Grab the `src/UploadCarecomponent.fs` file and add it to your project.
+
 
 ## How does it work?
 
@@ -29,6 +31,14 @@ Just Grab the `src/UploadCarecomponent.fs` file and add it to your project.
         onChange=(fun _ -> printfn "onChange")
         onUploadComplete=(fun info -> printfn "%s" info.cdnUrl)
     }
+```
+
+### Update your index.html with credentials
+
+```html
+<script>
+  UPLOADCARE_PUBLIC_KEY = 'demopublickey'; // change to your private key
+</script>
 ```
 
 ### Use it with Elmish
